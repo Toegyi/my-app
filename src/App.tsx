@@ -8,6 +8,7 @@ import {
   theme,
   Grid,
   HStack,
+  VStack,
 } from "@chakra-ui/react";
 
 export const App = () => (
@@ -40,6 +41,11 @@ export const App = () => (
         <Box w="170px" h="10" bg="teal.500" />
         <Box w="180px" h="10" bg="teal.500" />
       </HStack>
+      <VStack spacing="24px">
+        <Box w="170px" h="10" bg="pink.500" />
+        <Box w="170px" h="10" bg="pink.500" />
+        <Box w="170px" h="10" bg="pink.500" />
+      </VStack>
       <Flex>
         <Box p="4" bg="red.400">
           LeftFlexBox
