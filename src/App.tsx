@@ -40,6 +40,15 @@ export const App = () => (
         <Box w="170px" h="10" bg="teal.500" />
         <Box w="180px" h="10" bg="teal.500" />
       </HStack>
+      <Flex>
+        <Box p="4" bg="red.400">
+          LeftFlexBox
+        </Box>
+        <Spacer />
+        <Box p="4" bg="green.400">
+          RightFlexBox
+        </Box>
+      </Flex>
     </Box>
   </ChakraProvider>
 );
