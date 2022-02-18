@@ -1,4 +1,6 @@
 import * as React from "react";
+import "./index.css";
+
 import {
   ChakraProvider,
   Box,
@@ -15,6 +17,8 @@ export const App = () => (
   <ChakraProvider theme={theme}>
     <Box>
       <Text>Flex and Spacer: Full width, equal Spacing</Text>
+      {/* tailwindcss */}
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <Flex>
         <Box w="70px" h="10" bg="red.500" />
         <Box w="170px" h="10" bg="red.500" />
